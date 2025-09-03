@@ -9,10 +9,10 @@ This project is an AI-powered SQL Query Generator that translates natural langua
 - **Database Execution**: Runs SQL queries against an SQLite database.
 - **Custom Schema Support**: GPT generates SQL based on your database schema.
 - **User-Friendly UI**: Built with **Streamlit** for ease of use.
-- **Secure API Key Management**: Users can input their **OpenAI API Key** manually or load it from a `.env` file.
+- **Secure API Key Management**: Users can input their **Gemini API Key** manually or load it from a `.env` file.
 
 ## Tech Stack
-- **Backend**: Python, OpenAI API, SQLite
+- **Backend**: Python, Gemini API, SQLite
 - **Frontend**: Streamlit
 - **Libraries**: SQL Parsing, python-dotenv
 
@@ -29,9 +29,9 @@ pip install -r requirements.txt
 ```
 
 ### 3. Set Up the `.env` File
-Create a `.env` file in the root directory and add your **OpenAI API Key**:
+Create a `.env` file in the root directory and add your **Gemini API Key**:
 ```ini
-OPENAI_API_KEY=your_openai_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
 ### 4. Run the Streamlit App
@@ -45,4 +45,3 @@ streamlit run src/app.py
 3. Enter a natural language query (e.g., "Show all employees who joined after 2020").
 4. Click **Generate SQL** to get the SQL query.
 5. Validate & Execute the query to see the results.
-
