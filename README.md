@@ -19,7 +19,7 @@ This project is an AI-powered SQL Query Generator that translates natural langua
 ## 🚀 Installation & Setup
 ### 1️. Clone the Repository
 ```bash
-git clone 
+git clone https://github.com/Sujal9079/SQL-Query-Generator.git
 cd llm-sql-query-generator
 ```
 
